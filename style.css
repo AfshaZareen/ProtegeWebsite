@@ -7,7 +7,7 @@
     transition: background 0.5s ease;
   }
   section {
-    padding: 40px 20px;
+    padding: 80px 20px;
     animation: fadeIn 1s ease-in;
   }
   
@@ -34,7 +34,7 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   }
   
-  button {
+ button {
     background-color: #9fd3c7;
     color: #142d4c;
     border: none;
@@ -97,4 +97,28 @@
     max-height: 150px; 
     object-fit: cover;  
     border-radius: 10px;
+}
+
+
+
+/* Button Styling */
+.button, button {
+  background-color: #9fd3c7;
+  color: #142d4c;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s, transform 0.3s;
+  text-align: center;
+}
+
+/* Hover Effect */
+.button:hover, button:hover {
+  background-color: #385170;
+  color: #ececec;
+  transform: scale(1.05);
 }
