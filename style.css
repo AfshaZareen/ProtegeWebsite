@@ -79,3 +79,22 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #142d4c;
   }
+
+  .event-item {
+    width: 250px; /* Keep the event box size fixed */
+    height: auto;  
+    text-align: center;
+    background-color: #385170;
+    border-radius: 15px;
+    padding: 20px;
+    color: #ececec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-item img {
+    width: 100%;       
+    max-height: 150px; 
+    object-fit: cover;  
+    border-radius: 10px;
+}
